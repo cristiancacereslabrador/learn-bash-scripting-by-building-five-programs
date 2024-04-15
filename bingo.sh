@@ -4,7 +4,7 @@
 
 echo -e "\n~~ Bingo Number Generator ~~\n"
 
-NUMBER=5
+NUMBER=$RANDOM
 
 echo $NUMBER
 
