@@ -109,3 +109,4 @@ help
 help $1 -lt 5
 help [[ $1 -lt 5 ]]
 help test
+./countdown.sh 5
