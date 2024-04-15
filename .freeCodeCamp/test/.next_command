@@ -140,3 +140,6 @@ help test
 help test
 help -x
 [[ -x countdown.sh ]]
+help
+help [[x]]
+help [[ expression ]]
