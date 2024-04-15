@@ -253,3 +253,5 @@ man sleep
 man sleep 3
 sleep 3
 sleep 1
+sleep 3
+./countdown.sh 3
