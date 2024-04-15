@@ -18,3 +18,5 @@ read LOCATION
 
 echo Hello $NAME from $LOCATION.
 
+QUESTION3="What's your favorite coding website?"
+
