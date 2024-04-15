@@ -135,3 +135,8 @@ help test
 [[ -a badfile.txt ]]
 [[ -a badfile.t_xt ]]
 [[ -a bad_file.txt ]]
+help test
+./countdown.sh
+help test
+help -x
+[[ -x countdown.sh ]]
