@@ -132,3 +132,6 @@ ls --color=auto -y
 ls --color=auto -y
 help test
 [[ -a countdown.sh ]]
+[[ -a badfile.txt ]]
+[[ -a badfile.t_xt ]]
+[[ -a bad_file.txt ]]
