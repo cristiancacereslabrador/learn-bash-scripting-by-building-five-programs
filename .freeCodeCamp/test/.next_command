@@ -252,3 +252,4 @@ ls --color=auto /bin
 man sleep
 man sleep 3
 sleep 3
+sleep 1
