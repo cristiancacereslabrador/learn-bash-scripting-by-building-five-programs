@@ -108,3 +108,4 @@ help if
 help
 help $1 -lt 5
 help [[ $1 -lt 5 ]]
+help test
