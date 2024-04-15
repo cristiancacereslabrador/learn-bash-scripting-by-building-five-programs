@@ -68,3 +68,4 @@ man
 man man
 man echo
 ./questionnaire.sh
+./questionnaire.sh
