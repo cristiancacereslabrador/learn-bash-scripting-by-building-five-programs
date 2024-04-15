@@ -64,3 +64,6 @@ ls --color=auto -l
 ./questionnaire.sh
 --help
 echo --help
+man
+man man
+man echo
