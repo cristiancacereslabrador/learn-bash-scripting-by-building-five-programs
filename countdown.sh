@@ -10,6 +10,7 @@ then
 do
   echo $I
   ((I--))
+  sleep 1
 done
 : '
     for (( i = $1; i >= 0; i-- ))
