@@ -288,3 +288,4 @@ echo $RANDOM
 echo $RANDOM 5
 ./bingo.sh
 ./bingo.sh
+./bingo.sh
