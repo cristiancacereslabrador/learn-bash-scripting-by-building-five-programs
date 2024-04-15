@@ -6,3 +6,5 @@ echo $QUESTION1
 
 read NAME
 
+
+echo Hello $NAME.
