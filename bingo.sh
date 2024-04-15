@@ -8,3 +8,4 @@ NUMBER=5
 
 echo $NUMBER
 
+echo LANG
