@@ -87,3 +87,5 @@ man echo
 man if
 help if
 __vsc_prompt_cmd_original
+./countdown.sh 4
+./countdown.sh arg1
