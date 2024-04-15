@@ -150,3 +150,4 @@ help [[ expression ]]
 ./countdown.sh 1
 ./countdown.sh 4
 ./countdown.sh 0
+help
