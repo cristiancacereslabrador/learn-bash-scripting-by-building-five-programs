@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo ~~ Questionnaire ~~
-
 QUESTION1="What's your name?"
 
 echo $QUESTION1
@@ -16,6 +14,6 @@ echo $QUESTION2
 
 read LOCATION
 
-echo Hello $NAME from $LOCATION.
 
 
+echo $LOCATION
