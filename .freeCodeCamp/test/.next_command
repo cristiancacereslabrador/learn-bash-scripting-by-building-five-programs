@@ -473,3 +473,4 @@ echo ${RESPONSES[5]}
 echo $RESPONSES[5]
 echo ${RESPONSES[5]}
 ./fortune.sh
+help
