@@ -290,3 +290,8 @@ echo $RANDOM 5
 ./bingo.sh
 ./bingo.sh
 I=0
+echo I
+echo
+echo NUMBER
+echo $NUMBER
+echo $I
