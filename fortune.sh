@@ -17,6 +17,8 @@ else
 fi
 }
 
+GET_FORTUNE
+
 until [[ $QUESTION =~ \?$ ]]
 do
   GET_FORTUNE again
