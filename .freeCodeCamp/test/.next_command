@@ -505,3 +505,8 @@ VAR="helo world"
 VAR="hello world"
 echo VAR
 echo $VAR
+[[ "hello world" == $VARh ]]
+[[ "hello world" == $VAR ]]
+[[ "hello world" == VAR ]]
+[[ "hello world" == $VAR ]]
+[[ $VAR == "hello world" ]]
