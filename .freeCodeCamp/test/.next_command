@@ -475,3 +475,5 @@ echo ${RESPONSES[5]}
 ./fortune.sh
 help
 help function
+./fortune.sh
+__vsc_prompt_cmd_original
