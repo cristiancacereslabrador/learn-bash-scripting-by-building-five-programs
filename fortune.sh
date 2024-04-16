@@ -18,5 +18,8 @@ do
   GET_FORTUNE
   read QUESTION
 done
-
+if [[ ! $1 ]]
+then
 echo ${RESPONSES[$N]}
+  
+fi
