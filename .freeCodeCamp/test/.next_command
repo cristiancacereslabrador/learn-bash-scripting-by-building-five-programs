@@ -465,3 +465,10 @@ echo $*
 echo ${ARR[@]}
 declare -p
 declare -p ARR
+echo fortune.sh
+echo ${ARR[5]}
+echo ARR[5
+echo ARR[5]
+echo ${RESPONSES[5]}
+echo $RESPONSES[5]
+echo ${RESPONSES[5]}
