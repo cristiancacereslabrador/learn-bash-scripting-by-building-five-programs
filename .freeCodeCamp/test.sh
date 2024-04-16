@@ -9,12 +9,21 @@ RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again late
 N=$((RANDOM % 6))
 
 GET_FORTUNE() {
+ if [[ ! $1 ]]
+then
   echo Ask a yes or no question:
+else
+  echo Try again. Make sure it ends with a question mark:
+fi
 }
 
-GET_FORTUNE
+until [[ $QUESTION =~ \?$ ]]
+do
+  GET_FORTUNE
+  read QUESTION
+done
 
 echo ${RESPONSES[$N]}
 
-read QUESTION
-echo $QUESTION
+
+GET_FORTUNE again
