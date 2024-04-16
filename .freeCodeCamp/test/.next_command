@@ -522,3 +522,4 @@ echo $VAR
 touch five.sh
 chmod +x f
 chmod +x five.sh
+./five.sh
