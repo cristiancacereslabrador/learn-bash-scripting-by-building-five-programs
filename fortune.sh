@@ -15,7 +15,7 @@ GET_FORTUNE() {
 
 until [[ $QUESTION == test? ]]
 do
-read QUESTION
+  read QUESTION
   GET_FORTUNE
 done
 
