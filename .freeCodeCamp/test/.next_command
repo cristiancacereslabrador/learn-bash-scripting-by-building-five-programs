@@ -493,3 +493,5 @@ help test
 ./fortune.sh
 help [[
 [[ hello == hello ]]
+[[ hello == wordl ]]
+[[ hello == world ]]
