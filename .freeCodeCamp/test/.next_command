@@ -492,3 +492,4 @@ help test
 ./fortune.sh
 ./fortune.sh
 help [[
+[[ hello == hello ]]
