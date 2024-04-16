@@ -9,6 +9,9 @@ NUMBER=$((RANDOM % 75 + 1))
 TEXT="The next number is, "
 
 if (( NUMBER <= 15 ))
-then
+ then
   echo $TEXT B:$NUMBER
+elif [[ $NUMBER -le 30 ]]
+ then
+  echo $TEXT I:$NUMBER
 fi
