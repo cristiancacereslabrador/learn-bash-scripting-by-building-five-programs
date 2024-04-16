@@ -15,8 +15,8 @@ GET_FORTUNE() {
 
 until [[ $QUESTION == test? ]]
 do
-  read QUESTION
   GET_FORTUNE
+  read QUESTION
 done
 
 echo ${RESPONSES[$N]}

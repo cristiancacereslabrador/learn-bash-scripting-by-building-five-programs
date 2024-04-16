@@ -489,3 +489,6 @@ help until
 help test
 help test
 ./fortune.sh
+./fortune.sh
+./fortune.sh
+help [[
